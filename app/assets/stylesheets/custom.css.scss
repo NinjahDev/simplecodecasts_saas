@@ -4,9 +4,12 @@
 @import "font-awesome";
 
 .navbar {
-    background: #232526; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f68bb+0,4f68bb+100 */
+background: #4f68bb; /* Old browsers */
+background: -moz-linear-gradient(top,  #4f68bb 0%, #4f68bb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4f68bb 0%,#4f68bb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4f68bb 0%,#4f68bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f68bb', endColorstr='#4f68bb',GradientType=0 ); /* IE6-9 */
 }
 
 .navbar-inverse {
